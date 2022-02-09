@@ -1,0 +1,14 @@
+integer num;
+num=0;
+do{
+    if(math.mod(num, 15)==0){
+        system.debug('FizzBuzz '+num);
+    } else if(math.mod(num, 3)==0){
+        system.debug('Fizz '+num);
+    } else if(math.mod(num, 5)==0) {
+        system.debug('Buzz '+num);
+    } else{
+        system.debug(Num);
+    }
+    num+=1;
+}while(num<=100);
